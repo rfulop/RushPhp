@@ -3,7 +3,7 @@
 <div class="centerHome">
 <img id="imgHome" src="img/homeimg.png" alt="Image de shop">
 </div>
-<?php include 'navSide.php';
+<?php
   /*    include 'centerItems.php';
   */    ?>
 </div>

@@ -6,7 +6,8 @@
     $comodities = unserialize(file_get_contents("./dbs/comodities"));
     foreach ($comodities as $comodity)
     {
-      echo "<li><a href='#'>".$comodity['name']."</a></li>";
+
+      echo '<li><a href="display.php?cat=' . $comodity['name'] . '">' .$comodity['name'] . '</a></li>';
     }
     ?>
   </ul>

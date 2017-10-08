@@ -1,12 +1,12 @@
 <?php
-session_start();
+require_once("session.php");
 	if ($_POST["login"] && $_POST["password"] && $_POST["mail"] && $_POST["submit"] === "OK")
 	{
 		if (!file_exists("dbs") || !file_exists("dbs/users"))
 			exit ;
 		$tab = unserialize(file_get_contents("dbs/users"));
-		$fd = fopen("dbs/users", "r+");
-		flock($fd, LOCK_EX);
+	//	$fd = fopen("dbs/users", "r+");
+	//	flock($fd, LOCK_EX);
 		$err = 0;
 		foreach ($tab as $user)
 		{
@@ -41,8 +41,8 @@ session_start();
     }
     else if ($err == 2)
        echo "Email already used\n";
-		flock($fd, LOCK_EX);
-		fclose($fd);
+	//	flock($fd, LOCK_EX);
+	//	fclose($fd);
 	}
 ?>
 <html>

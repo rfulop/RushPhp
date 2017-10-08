@@ -1,5 +1,5 @@
 <?php
-session_start();
+require_once("session.php");
   if ($_POST["login"] && $_POST["password"] && $_POST["submit"] === "OK")
   {
     if (!file_exists("dbs") || !file_exists("dbs/users"))
@@ -24,21 +24,22 @@ session_start();
       header("Location: index.php");
     }
   }
+include 'header.php';
 
 if (!$_SESSION['login'])
 {
   ?>
  <body>
  <form method="post" action="login.php">
-   <h2>Connexion</h2>
+   <h2 class="centerP">Connexion</h2>
    <p>
-     <label for="login">Login: </label>
+     <label for="login" class="centerP">Login: </label>
      <input type="text" name="login" />
      <br />
-     <label for="password">Password: </label>
+     <label for="password" class="centerP">Password: </label>
      <input type="password" name="password" />
     <input type="submit" name="submit" value="OK"/>
    </form>
-   <a = href="create_account.php"><p>Create an account</p></a>
+   <a class= "centerCon" href="create_account.php"><p class="centerP" class="centerCon">Create an account</p></a>
  </body>
 <?php } ?>

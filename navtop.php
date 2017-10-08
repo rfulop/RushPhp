@@ -1,18 +1,19 @@
-<?php session_start(); ?>
-
+<?php
+//require_once("session.php");
+?>
 <nav id="navtop">
   <ul>
-    <li>Home</li>
+    <a href="index.php"><li>Home</li></a>
     <li>What's new ?</li>
     <li>Contact</li>
     <?php
     if ($_SESSION['priv'] === 'superadmin' || $_SESSION['priv'] === 'admin')
       echo "<a href='admin.php'><li>Admin panel</li></a>";
     else {
-      echo "<li>My shop</li></a>";
+      echo "<a href='shop.php'><li>My shop</li></a>";
     }
     if (!$_SESSION['login'])
-    echo "<a href='login.php'><li>Login</li></a>";
+      echo "<a href='login.php'><li>Login</li></a>";
     else {
       echo "<a href='logout.php'><li>Logout</li></a>";
     }?>

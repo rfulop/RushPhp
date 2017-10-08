@@ -1,6 +1,7 @@
 <?php
-session_start();
+require_once("session.php");
 
-$_SESSION['login'] = NULL;
+session_destroy();
 header("Location: index.php");
+
  ?>

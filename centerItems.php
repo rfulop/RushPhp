@@ -1,4 +1,4 @@
-<div id="centerItems">
+<div class="centerItems">
   <h2>Popular products</h2>
   <?php
   $items = unserialize(file_get_contents("dbs/items"));
