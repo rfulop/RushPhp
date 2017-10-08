@@ -5,8 +5,12 @@
     <li>Home</li>
     <li>What's new ?</li>
     <li>Contact</li>
-    <li>My Shop</li>
     <?php
+    if ($_SESSION['priv'] === 'superadmin' || $_SESSION['priv'] === 'admin')
+      echo "<a href='admin.php'><li>Admin panel</li></a>";
+    else {
+      echo "<li>My shop</li></a>";
+    }
     if (!$_SESSION['login'])
     echo "<a href='login.php'><li>Login</li></a>";
     else {

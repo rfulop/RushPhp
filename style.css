@@ -1,6 +1,8 @@
 body
 {
 	background-color: rgb(218,219,216);
+	height: auto;
+	width: auto;
 }
 
 h1
@@ -10,13 +12,13 @@ h1
 	font-family: Capture;
 }
 
-#navtop
+#navTop
 {
 	margin: 3%;
 	background-color: rgb(035, 035, 035);
 }
 
-#navtop li
+#navTop li
 {
 font-family: StenciliaA;
 color: white;
@@ -29,7 +31,7 @@ border-right: 1px solid white;
 #imgHome
 {
 	border: solid white 6px;
-	width: 65%;
+	width: 55%;
 	height: 30%;
 }
 
@@ -40,6 +42,50 @@ border-right: 1px solid white;
 
 #navSide
 {
+/*	height: 35%;
+*/	background-color: white;
+	margin: 2%;
+	display: inline-block;
+/*	border: solid black 2px;
+*/	margin-left: 21%;
+}
+
+#navSide li
+{
+	list-style-type: none;
+	font-family: StenciliaB;
+	margin: 10%;
+
+}
+
+#navSide h2
+{
+	font-family: Capture;
+	padding: 2%;
+	text-align: center;
+	border-bottom: solid black 1px;
+	font-size: 28px;
+}
+
+#navSide li a
+{
+	text-decoration: none;
+	color: black;
+	padding: 2%;
+	font-size: 22px;
+}
+
+#centerItems
+{
+	display: inline-block;
+	margin-right: 21%;
+	height: 15%;
+	width: 40%;
+	color: grey;
+	margin: 2%;
+	border: solid black 2px;
+	float: inherit;
+	margin-top: -15%;
 
 }
 
@@ -51,4 +97,9 @@ border-right: 1px solid white;
 @font-face {
 	font-family: "StenciliaA";
 	src: url('./fonts/StenciliaA.ttf');
+}
+
+@font-face {
+	font-family: "StenciliaB";
+	src: url('./fonts/StenciliaB.ttf');
 }

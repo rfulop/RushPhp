@@ -1,4 +1,5 @@
 <?php
+session_start();
 	if ($_POST["login"] && $_POST["password"] && $_POST["mail"] && $_POST["submit"] === "OK")
 	{
 		if (!file_exists("dbs") || !file_exists("dbs/users"))
@@ -31,6 +32,9 @@
 			$new_user["password"] = hash("whirlpool", $_POST["password"]);
 			$tab[] = $new_user;
 			file_put_contents("dbs/users", serialize($tab));
+      $_SESSION['login'] = $_POST['login'];
+      $_SESSION['priv'] = 'user';
+			header("Location: index.php");
 		}
     else if ($err == 1){
       echo "Account already exists\n";

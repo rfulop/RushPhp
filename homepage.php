@@ -1,6 +1,9 @@
 <h1>Weapon Store</h1>
-</br>
+<div class= "home">
 <div class="centerHome">
-<img id="imgHome" src="Img/homeimg.png" alt="Image de shop">
-
+<img id="imgHome" src="img/homeimg.png" alt="Image de shop">
+</div>
+<?php include 'navSide.php';
+  /*    include 'centerItems.php';
+  */    ?>
 </div>

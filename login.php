@@ -11,6 +11,7 @@ session_start();
     {
       if ($user["login"] === $_POST["login"] && $user["password"] === $pw)
       {
+        $priv = $user['priv'];
         $logged = 1;
         break;
       }
@@ -19,6 +20,7 @@ session_start();
       echo "Wrong login or password";
     else {
       $_SESSION['login'] = $_POST['login'];
+      $_SESSION['priv'] = $priv;
       header("Location: index.php");
     }
   }

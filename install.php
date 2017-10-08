@@ -15,17 +15,18 @@
     if (!file_exists("dbs/items"))
     {
       $new_item['name'] = 'Cockail Molotov';
-      $new_item['cat'] = 'Explo';
+      $new_item['cat'] = 'Explosif';
       $new_item['cat2'] = 'cat2';
       $new_item['price'] = '10';
       $new_item['img'] = 'img/Explo/CocktailMolotov.jp2';
       $new_item['promo'] = '1';
+      $new_item['img'] = 'img/Explo/cm.jpg';
       $new_item['stock'] = '10';
       $new_item['des'] = "testest";
       $items[] = $new_item;
 
 	  $new_item['name'] = 'C4';
-      $new_item['cat'] = 'Explo';
+      $new_item['cat'] = 'Explosif';
       $new_item['cat2'] = 'cat2';
       $new_item['price'] = '25';
       $new_item['img'] = 'img/Explo/C-4.jp2';
@@ -33,9 +34,9 @@
       $new_item['stock'] = '10';
       $new_item['des'] = "testest";
       $items[] = $new_item;
-	  
+
 	  $new_item['name'] = 'Cryo Grenade';
-      $new_item['cat'] = 'Explo';
+      $new_item['cat'] = 'Explosif';
       $new_item['cat2'] = 'cat2';
       $new_item['price'] = '30';
       $new_item['img'] = 'img/Explo/CryoGrenade.jp2';
@@ -43,9 +44,9 @@
       $new_item['stock'] = '10';
       $new_item['des'] = "testest";
       $items[] = $new_item;
-	  
+
 	  $new_item['name'] = 'Cryo Mine';
-      $new_item['cat'] = 'Explo';
+      $new_item['cat'] = 'Explosif';
       $new_item['cat2'] = 'cat2';
       $new_item['price'] = '30';
       $new_item['img'] = 'img/Explo/CryoMine.jp2';
@@ -53,9 +54,9 @@
       $new_item['stock'] = '10';
       $new_item['des'] = "testest";
       $items[] = $new_item;
-	  
+
 	  $new_item['name'] = 'Dynamite';
-      $new_item['cat'] = 'Explo';
+      $new_item['cat'] = 'Explosif';
       $new_item['cat2'] = 'cat2';
       $new_item['price'] = '10';
       $new_item['img'] = 'img/Explo/Dynamite.jp2';
@@ -63,9 +64,9 @@
       $new_item['stock'] = '10';
       $new_item['des'] = "testest";
       $items[] = $new_item;
-	  
+
 	  $new_item['name'] = 'Grenade Flash';
-      $new_item['cat'] = 'Explo';
+      $new_item['cat'] = 'Explosif';
       $new_item['cat2'] = 'cat2';
       $new_item['price'] = '20';
       $new_item['img'] = 'img/Explo/Flash_bang.jp2';
@@ -73,9 +74,9 @@
       $new_item['stock'] = '10';
       $new_item['des'] = "testest";
       $items[] = $new_item;
-	  
+
 	  $new_item['name'] = 'Grenade classique';
-      $new_item['cat'] = 'Explo';
+      $new_item['cat'] = 'Explosif';
       $new_item['cat2'] = 'cat2';
       $new_item['price'] = '15';
       $new_item['img'] = 'img/Explo/FRAG_GRE.jp2';
@@ -83,9 +84,9 @@
       $new_item['stock'] = '10';
       $new_item['des'] = "testest";
       $items[] = $new_item;
-	  
+
 	  $new_item['name'] = 'Mine Classique';
-      $new_item['cat'] = 'Explo';
+      $new_item['cat'] = 'Explosif';
       $new_item['cat2'] = 'cat2';
       $new_item['price'] = '15';
       $new_item['img'] = 'img/Explo/FragMine.jp2';
@@ -93,9 +94,9 @@
       $new_item['stock'] = '10';
       $new_item['des'] = "testest";
       $items[] = $new_item;
-	  
+
 	  $new_item['name'] = 'Grenade Gas';
-      $new_item['cat'] = 'Explo';
+      $new_item['cat'] = 'Explosif';
       $new_item['cat2'] = 'cat2';
       $new_item['price'] = '15';
       $new_item['img'] = 'img/Explo/Gas_bomb.jp2';
@@ -103,9 +104,9 @@
       $new_item['stock'] = '15';
       $new_item['des'] = "testest";
       $items[] = $new_item;
-	  
+
 	  $new_item['name'] = 'Grenade Incendiaire';
-      $new_item['cat'] = 'Explo';
+      $new_item['cat'] = 'Explosif';
       $new_item['cat2'] = 'cat2';
       $new_item['price'] = '20';
       $new_item['img'] = 'img/Explo/Incend.jp2';
@@ -113,9 +114,9 @@
       $new_item['stock'] = '10';
       $new_item['des'] = "testest";
       $items[] = $new_item;
-	  
+
 	  $new_item['name'] = 'Mine Plasma';
-      $new_item['cat'] = 'Explo';
+      $new_item['cat'] = 'Explosif';
       $new_item['cat2'] = 'cat2';
       $new_item['price'] = '30';
       $new_item['img'] = 'img/Explo/Plasma_mine.jp2';
@@ -123,9 +124,9 @@
       $new_item['stock'] = '10';
       $new_item['des'] = "testest";
       $items[] = $new_item;
-	  
+
 	  $new_item['name'] = 'Grenade Plasma';
-      $new_item['cat'] = 'Explo';
+      $new_item['cat'] = 'Explosif';
       $new_item['cat2'] = 'cat2';
       $new_item['price'] = '10';
       $new_item['img'] = 'img/Explo/PlasmaGrenade.jp2';
@@ -133,9 +134,9 @@
       $new_item['stock'] = '10';
       $new_item['des'] = "testest";
       $items[] = $new_item;
-	  
+
 	  $new_item['name'] = 'Grenade Pulse';
-      $new_item['cat'] = 'Explo';
+      $new_item['cat'] = 'Explosif';
       $new_item['cat2'] = 'cat2';
       $new_item['price'] = '20';
       $new_item['img'] = 'img/Explo/PulseGrenade.jp2';
@@ -143,9 +144,9 @@
       $new_item['stock'] = '10';
       $new_item['des'] = "testest";
       $items[] = $new_item;
-	  
+
 	  $new_item['name'] = 'Mine Pulse';
-      $new_item['cat'] = 'Explo';
+      $new_item['cat'] = 'Explosif';
       $new_item['cat2'] = 'cat2';
       $new_item['price'] = '25';
       $new_item['img'] = 'img/Explo/PulseMine.jp2';
@@ -153,9 +154,9 @@
       $new_item['stock'] = '10';
       $new_item['des'] = "testest";
       $items[] = $new_item;
-	  
+
 	  $new_item['name'] = 'Grenade Stun';
-      $new_item['cat'] = 'Explo';
+      $new_item['cat'] = 'Explosif';
       $new_item['cat2'] = 'cat2';
       $new_item['price'] = '20';
       $new_item['img'] = 'img/Explo/Stun_grenade.jp2';
@@ -163,9 +164,9 @@
       $new_item['stock'] = '10';
       $new_item['des'] = "testest";
       $items[] = $new_item;
-	  
+
 	  $new_item['name'] = 'Time Bombe';
-      $new_item['cat'] = 'Explo';
+      $new_item['cat'] = 'Explosif';
       $new_item['cat2'] = 'cat2';
       $new_item['price'] = '15';
       $new_item['img'] = 'img/Explo/TimeBombFNV.jp2';
@@ -213,7 +214,7 @@
       $new_item['stock'] = '10';
       $new_item['des'] = "testest";
       $items[] = $new_item;
-	 
+
  	  $new_item['name'] = 'Cartouche Classique';
       $new_item['cat'] = 'Munitions';
       $new_item['cat2'] = 'cat2';
@@ -223,7 +224,7 @@
       $new_item['stock'] = '10';
       $new_item['des'] = "testest";
       $items[] = $new_item;
- 
+
 	  $new_item['name'] = 'Cartouche Chevrotine';
       $new_item['cat'] = 'Munitions';
       $new_item['cat2'] = 'cat2';
@@ -233,7 +234,7 @@
       $new_item['stock'] = '10';
       $new_item['des'] = "testest";
       $items[] = $new_item;
-	 
+
 	  $new_item['name'] = 'Munitions calibre .32';
       $new_item['cat'] = 'Munitions';
       $new_item['cat2'] = 'cat2';
@@ -666,4 +667,20 @@
 
 file_put_contents("dbs/items", serialize($items));
     }
+		if (!file_exists("dbs/comodities"))
+		{
+			$new_cat['name'] = 'Explosives';
+			$cat[] = $new_cat;
+
+			$new_cat['name'] = 'Ammunitions';
+			$cat[] = $new_cat;
+
+			$new_cat['name'] = 'Weapons';
+			$cat[] = $new_cat;
+
+			$new_cat['name'] = 'Equipment';
+			$cat[] = $new_cat;
+
+			file_put_contents("dbs/comodities", serialize($cat));
+		}
 ?>
