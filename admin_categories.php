@@ -1,7 +1,6 @@
 <?php
 require_once("session.php");
 
-
 if($_POST['addCat'] && $_POST['add'] === "OK")
 {
   $cats = unserialize(file_get_contents("dbs/comodities"));

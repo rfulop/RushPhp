@@ -1,4 +1,4 @@
-<div id="navSideRi">
+<div id="navSide" class="alignR">
 <nav>
   <h2>Promotions</h2>
   <ul>

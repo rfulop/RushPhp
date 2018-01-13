@@ -1,11 +1,6 @@
-<?php
-//require_once("session.php");
-?>
 <nav id="navtop">
   <ul>
     <a href="index.php"><li>Home</li></a>
-    <li>What's new ?</li>
-    <li>Contact</li>
     <?php
     if ($_SESSION['priv'] === 'superadmin' || $_SESSION['priv'] === 'admin')
       echo "<a href='admin.php'><li>Admin panel</li></a>";

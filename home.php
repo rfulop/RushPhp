@@ -4,6 +4,5 @@
         include 'homepage.php';
         include 'navSide.php';
 		include 'proSide.php';
-
 ?>
 </html>
